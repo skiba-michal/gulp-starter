@@ -1,0 +1,12 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin full-screen {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}

@@ -1,0 +1,8 @@
+.test-wrapper {
+  .class-only-for-test {
+    background: $primary-color;
+    @include md {
+      font-size: 34px;
+    }
+  } 
+}
